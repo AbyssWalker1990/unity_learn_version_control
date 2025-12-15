@@ -1,5 +1,5 @@
 using UnityEngine;
-
+// INHERITANCE
 public class ProductivityUnit : Unit
 {
 
@@ -17,6 +17,7 @@ public class ProductivityUnit : Unit
         BuildingInRange();
     }
 
+    // POLYMORPHISM
     protected override void BuildingInRange()
     {
         if (m_CurrentPile == null)
