@@ -30,7 +30,7 @@ public class MainManager : MonoBehaviour
             TeamColor = data.TeamColor;
         }
     }
-
+    // ENCAPSULATION
     public static MainManager Instance { get; private set; }
 
     public Color TeamColor;
